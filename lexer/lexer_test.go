@@ -1,11 +1,8 @@
-// lexer/lexer_test.go
-
 package lexer
 
 import (
 	"testing"
-
-	"monkey_lang/token"
+	"monkeylang/token"
 )
 
 func TestNextToken(t *testing.T) {
