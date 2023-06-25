@@ -7,3 +7,6 @@ The output of this book will be a "tree-walking interpreter."
 ## Lexer
 
 The lexer takes in source code as an input and outputs the tokens that represent the source code. It goes through its input then outputs the next token it recognizes.
+
+## Parser
+The parser is a software component that takes input data (frequently text) and builds a data structure that gives structural representation of the input(parse tree, abstract syntax tree, etc.), checking for correct syntax in the process. The parser is preceded by the lexer that creates tokens from the sequence of the input characters.
